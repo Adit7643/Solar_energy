@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="image1/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Solar Energy</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+
+    <div class="hero_area">
+    <div class="hero-bg">
+     <img src="images/Solar Energy.jpg" alt="">
+    </div>
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/Solar Energy.jpg" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#review_section">Review</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="image1/search logo.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="image1/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Solar Energy</p>
+				<h3>Hon'ble Prime Minister of India, Shri Narendra Modi launched the National Portal for Rooftop Solar on 30/07/2022. Shri R. K. Singh, Union Minister for Power and NRE and Shri Krishan Pal Gurjar, MoS, Power and Heavy Industries were present. Shri Bhagwanth Khuba, MoS, MNRE joined virtually.</h3>
+				
+
+			</div>
+			
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="image1/logogt3.png" alt="Username">
+				<p>Solar Energy</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/sos.jpg">
+				</div>
+				<div class="side-text">
+					<h2>What you think about ?</h2>
+					<p>Solar energy is radiant light and heat from the Sun that is harnessed using a range of technologies such as solar power to generate electricity, solar thermal energy (including solar water heating), and solar architecture. It is an essential source of renewable energy, and its technologies are broadly characterized as either passive solar or active solar depending on how they capture and distribute solar energy or convert it into solar power. The total amount of solar energy incident on Earth is vastly in excess of the world’s current and anticipated energy requirements. If suitably harnessed, this highly diffused source has the potential to satisfy all future energy needs.</p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="abishek.png"></center>
+				<center><div class="card-title">ABHISHEK TIWARI</div>
+				<div id="detail">
+					<p>Hi, My name is ABHISHEK TIWARI. I am developer of this website as i have done almost all the Html works in it. </p>
+					<div class="duty"></div>
+					<a href="#" target="_blank"><button class="btn-susan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="image1/rohit.jpg"></center>
+				<center><div class="card-title">Ashish Ramesh Matsagar </div>
+				<div id="detail">
+					<p>Hi, My name is Ashish Ramesh Matsagar . I am a member of this website as i have done almost all the javascript works in it. </p>
+					<div class="duty"></div>
+					<a href="#" target="_blank"><button class="btn-codicgyan">Follow +</button></a>
+				</div>
+			</center>		
+			</div>
+			<div class="card">
+				<center><img src="image1/rohit.jpg"></center>
+				<center><div class="card-title">Neerukonda Jaya Uday Kiran</div>
+				<div id="detail">
+					<p>Hi, My name is Neerukonda Jaya Uday Kiran. I am a member of this website as i have done almost all the CSS works in it. </p>
+					<div class="duty"></div>
+					<a href="#" target="_blank"><button class="btn-adarsh">Follow +</button></a>
+				</div>
+			</center>		
+			</div>
+		</div>
+	</div>
+
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="#" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:adarshkadam635@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #0c8b8d, #9ba5b4); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" 
+	scrollamount="10"><div class="marqu">I have no doubt that we will be successful in harnessing the sun’s energy… If sunbeams were weapons of war, we would have had solar energy centuries ago.</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/sis.jpg" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2023</p>
+				<br><p><img src="images/icon/location.png">Lovely Professional University,Punjab<br>Phagwara,Punjab  100842</p><br>
+				<p><img src="images/icon/phone.png"> +91 8349934452<br><img src="images/icon/mail.png">&nbsp; abc@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
